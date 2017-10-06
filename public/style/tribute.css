@@ -13,6 +13,10 @@ a:hover {
     text-decoration: underline overline;
 }
 
+img {
+    max-width:100%;
+}
+
 .center {
     display: block;
     margin: 0 auto;
