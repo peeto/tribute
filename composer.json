@@ -17,5 +17,5 @@
     "require-dev": {
         "ext-xml": "*",
         "phpunit/phpunit": ">=3.7"
-    
+    }    
 }
