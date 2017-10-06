@@ -1,4 +1,5 @@
 <?php
+namespace peeto\tribute;
 
  $room = '';
  $roomname = '';

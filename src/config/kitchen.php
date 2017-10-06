@@ -1,5 +1,6 @@
 <?php
-namespace DarkChat;
+namespace peeto\tribute;
+
 
 /**
  * DarkChat configuration file
