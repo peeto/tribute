@@ -1,0 +1,22 @@
+{
+    "name": "peeto/tribute",
+    "description": "This is not the greatest web site in the world, this is a tribute",
+    "license": "GNU General Public License v2.0",
+    "authors": [
+        {
+            "name": "peeto",
+            "email": "petersenc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-sqlite3": "*",
+        "peeto/dark-chat": ">=0.94.3"
+    },
+    "require-dev": {
+        "ext-xml": "*",
+        "phpunit/phpunit": ">=3.7",
+        "peeto/dark-chat": ">=0.94.3"
+    }
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: 'Comic Sans', 'Comic Sans MS', 'Chalkboard', 'ChalkboardSE-Regular', 'Marker Felt', 'Purisa', 'URW Chancery L', cursive;
+    background-color: white;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline overline;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+.centertext {
+    text-align: center;
+}
+
+.darkchat .messages .messageblock {
+    margin: 10px;
+    padding: 10px;
+}
+.darkchat .messages .messageblock:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+.darkchat .messages .header .datetime {
+    font-size: small;
+}
+.darkchat .messages .header .name {
+    font-weight: bold;
+}
+.darkchat .messages .header .said {
+    font-size: small;
+    font-style: italic;
+    color: #808080;
+}
+
+.darkchat .sendmessage table {
+    width: 100%;
+}
+.darkchat .sendmessage table td[align=right] {
+    white-space:nowrap;
+}
+
+.darkchat .sendmessage table td[align=left] {
+    width: 100%;
+}
+
+.darkchat .sendmessage textarea {
+    width: 100%;
+}
