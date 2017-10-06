@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/tribute.css" />
+         <script src="/js/imageMapResizer.min.js"></script> 
     </head>
     <body>
 
@@ -31,6 +32,13 @@
             <area alt="Back Yard" title="Back Yard" href="?room=backyard" coords="48,716,376,823" shape="rect">
             <area alt="Shed" title="Shed" href="?room=shed" coords="452,714,570,809" shape="rect">
         </map>
+        
+        <script language="javasript" type="text/javascript">
+            <!--
+                // https://github.com/davidjbradshaw/image-map-resizer
+                imageMapResize();
+            // -->
+        </script>
         
     </body>
 </html>
