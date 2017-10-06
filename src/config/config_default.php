@@ -2,6 +2,8 @@
 namespace peeto\tribute;
 
 
+require dirname(__DIR__) . '/loadenvironment.php';
+require dirname(__DIR__) . '/getroom.php';
 /**
  * DarkChat configuration file
  */
@@ -9,13 +11,13 @@ $config = [
     /**
      * Where the database is located relative to the src directory
      */
-    'DATABASE_LOCATION' => dirname(__DIR__) . '/database/toyroom.db',
+    'DATABASE_LOCATION' => $databaseLocation . $room . '.db',
     
     /**
      * Where the UI is located either relative to the src directory
      * or absolutes
      */
-    'UI_LOCATION' => dirname(dirname(__DIR__)) . '/vendor/peeto/dark-chat/src/Web.php',
+    'UI_LOCATION' => $uiLocation . 'Web.php',
     
     /**
      * Maximum numbers to keep in the database
@@ -71,4 +73,3 @@ $config = [
      */
     'SHOW_MESSAGES_FIRST' => false
 ];
-

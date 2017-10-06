@@ -22,8 +22,14 @@ use peeto\DarkChat;
         
  <?php
 
+ if (file_exists(dirname(__DIR__) . '/config/config.php')) {
+     $config = dirname(__DIR__) . '/config/config.php';
+ } else {
+     $config = dirname(__DIR__) . '/config/config_default.php';
+ }
+ 
 DarkChat\Chat::load([
-    'config' => dirname(__DIR__) . '/config/' . $room . '.php',
+    'config' => $config,
     'route' => '?room=' . $room,
     'xml_message_route' => '?xml&room=' . $room,
     'xml_send_message_route' => '?xml&room=' . $room

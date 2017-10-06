@@ -1,10 +1,10 @@
 <?php
 namespace peeto\tribute;
-// Autoload files using Composer autoload
-require_once dirname(__DIR__) . '/vendor/autoload.php';
 
 
-include 'getroom.php';
+require 'loadenvironment.php';
+require $autoLoader;
+require 'getroom.php';
  
 if (isset($_GET['xml'])) {
     include 'web/xml.php';
