@@ -10,13 +10,12 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0",
+        "php": ">=5.4",
         "ext-sqlite3": "*",
-        "peeto/dark-chat": ">=0.94.3"
+        "peeto/dark-chat": ">=0.95"
     },
     "require-dev": {
         "ext-xml": "*",
-        "phpunit/phpunit": ">=3.7",
-        "peeto/dark-chat": ">=0.94.3"
-    }
+        "phpunit/phpunit": ">=3.7"
+    
 }
