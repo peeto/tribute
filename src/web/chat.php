@@ -14,11 +14,11 @@ use peeto\DarkChat;
     </head>
     <body>
 
-        <h1 class="centertext"><a href="/">Tribute</a></h1>
+        <h1 class="centertext"><a href="<?php echo dirname($_SERVER['PHP_SELF']); ?>">Tribute</a></h1>
         
         <h2><?php echo $roomname; ?></h2>
         
-        <p><a href="?l=map">&larr; Select another room</a></p>
+        <p><a href="?map">&larr; Select another room</a></p>
         
  <?php
 
