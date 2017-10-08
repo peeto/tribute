@@ -17,6 +17,10 @@ namespace peeto\tribute;
             $room = $_GET['room'];
             $roomname = 'Guest Room';
             break;
+        case 'closet':
+            $room = $_GET['room'];
+            $roomname = 'Closet';
+            break;
         case 'toyroom':
             $room = $_GET['room'];
             $roomname = 'Toy Room';

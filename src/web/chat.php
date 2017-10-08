@@ -34,5 +34,7 @@ DarkChat\Chat::load([
 
 ?>
         
+        <?php include 'footer.php' ?>;
+        
     </body>
 </html>

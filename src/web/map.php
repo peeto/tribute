@@ -16,12 +16,11 @@
 
         <img class="center" src="images/map.png" usemap="#image-map" />
         
-        <p class="centertext">This site is not moderated from human or even robot interactions. What happens happens. Deal with it or leave.</p>
-        
         <map name="image-map">
             <area alt="Foyer" title="Foyer" href="?room=foyer" coords="178,35,251,77" shape="rect">
             <area alt="Bedroom" title="Bedroom" href="?room=bedroom" coords="304,58,553,230" shape="rect">
             <area alt="Guest Room" title="Guest Room" href="?room=guestroom" coords="41,25,154,144" shape="rect">
+            <area alt="Closet" title="Closet" href="?room=closet" coords="36,168,165,203" shape="rect">
             <area alt="Toy Room" title="Toy Room" href="?room=toyroom" coords="32,234,139,369" shape="rect">
             <area alt="Theater" title="Theater" href="?room=theater" coords="566,505,302,297" shape="rect">
             <area alt="Toilet" title="Toilet" href="?room=toilet" coords="20,404,114,430" shape="rect">
@@ -40,6 +39,8 @@
                 imageMapResize();
             // -->
         </script>
+        
+        <?php include 'footer.php' ?>;
         
     </body>
 </html>
