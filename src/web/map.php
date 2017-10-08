@@ -5,14 +5,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/tribute.css" />
-         <script src="/js/imageMapResizer.min.js"></script> 
+        <script src="js/imageMapResizer.min.js"></script> 
+        <link href="images/home.svg" rel="icon" />
     </head>
     <body>
 
-        <h1 class="centertext"><a href="/">Tribute</a></h1>
+        <h1 class="centertext"><a href="<?php echo dirname($_SERVER['PHP_SELF']); ?>">Tribute</a></h1>
         
         <h2 class="centertext">Pick a room, choose carefully</h2>
-        
+
         <img class="center" src="images/map.png" usemap="#image-map" />
         
         <p class="centertext">This site is not moderated from human or even robot interactions. What happens happens. Deal with it or leave.</p>
