@@ -1,7 +1,6 @@
 <?php
 namespace peeto\tribute;
 
-
 use peeto\DarkChat;
 
 include 'getconfig.php';

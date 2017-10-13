@@ -1,7 +1,6 @@
 <?php
 namespace peeto\tribute;
 
-
 require 'loadenvironment.php';
 require $autoLoader;
 require 'getroom.php';

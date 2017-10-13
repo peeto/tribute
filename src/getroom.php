@@ -1,7 +1,7 @@
 <?php
 namespace peeto\tribute;
 
- $room = '';
+$room = '';
  $roomname = '';
  if (isset($_GET['room'])) {
      switch ($_GET['room']) {

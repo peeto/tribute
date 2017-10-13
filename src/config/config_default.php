@@ -1,7 +1,6 @@
 <?php
 namespace peeto\tribute;
 
-
 require dirname(__DIR__) . '/loadenvironment.php';
 require dirname(__DIR__) . '/getroom.php';
 /**

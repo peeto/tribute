@@ -1,7 +1,7 @@
 <?php
 /**
  * Default environment configuration
- * 
+ *
  * Customise by copying to environment.php
  * Allows adaptation to production environments without Composer updates
  * destroying everything

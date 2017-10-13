@@ -1,8 +1,8 @@
 <?php
 namespace peeto\tribute;
 
-
 use peeto\DarkChat;
+
 ?>
 <!DOCTYPE html>
 <html>
